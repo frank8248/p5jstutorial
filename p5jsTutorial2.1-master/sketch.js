@@ -6,7 +6,8 @@ function setup()
   createCanvas(700,500);
   button2X = 10;
   button2Y = 150;
-
+  button3X= 500
+  button3Y= 400
   
 }
 
@@ -58,24 +59,40 @@ function draw()
 	}
 
 
-	fill(255,255,0);
-	stroke(0,0,0);
-	rect(200,200,100,100);
-
-	if(mouseX > 200 && mouseX < 200+100 && mouseY > 200 && mouseY < 200+200)
+	if (mouseX > 0 && mouseX < 100 && mouseY > 400 && mouseY < 500)
 	{
-		fill(0,0,255);
-		stroke(0,0,0);
-		textsize(20);
-		text("FK", 200+10, 200+10);
+		fill(0,0,0);
+		stroke(0,200,0)
+		strokeWeight(3)
+		rect(0,400,100,100);
+
 	}
 	else
 	{
-		fill(255,255,255);
-		stroke(204,0,0);
-		textsize(10);
-		text("CLICK ME!", 200+10,200+10);
+		fill(255,255,0)
+		stroke(200,50,0)
+		strokeWeight(5)
+		rect(0,400,100,100);
 
 	}
 
+	fill(0,0,255);
+	stroke(0,0,0);
+	rect(button3X,button3Y,100,100);
+
+		if (mouseX > button3X && mouseX < button3X+100 && mouseY > button3Y && mouseY < button3Y+100)
+	{
+		fill(255,255,255);
+		stroke(0,0,0);
+		textSize(6);
+		text("Kwok",button3X+30,button3Y+30);
+
+	}
+	else
+	{
+		fill(0,0,255);
+		stroke(51,70,190);
+		textSize(16);
+		text("Kwok",button3X+30, button3Y+30);
+	}
 }

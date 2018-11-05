@@ -7,12 +7,12 @@ var buttonStart;
 
 function preload()
 {
-	bgm = loadSound("https://bleungwpg.github.io/p5jsTutorial4.2/sounds/bensound-creativeminds.mp3");
+	bgm = loadSound("https://frank8248.github.io/p5jsTutorial/p5jsTutorial4.2-master/sounds/bensound-creativeminds.mp3");
 
 	// load sound file into variable sfx1
-	sfx1 = loadSound("https://bleungwpg.github.io/p5jsTutorial4.2/sounds/zapsplat_multimedia_game_sound_positive_action_tone_032_25091.mp3");
+	sfx1 = loadSound("https://frank8248.github.io/p5jsTutorial/p5jsTutorial4.2-master/sounds/CLASH - ROYALE.mp3.mp3");
 
-	buttonStart = loadImage("https://bleungwpg.github.io/p5jsTutorial4.2/images/button_press-for-sfx.png");
+	buttonStart = loadImage("https://frank8248.github.io/p5jsTutorial/p5jsTutorial4.2-master/images/button_cr-music.png");
 
 }
 

@@ -7,12 +7,12 @@ var buttonStart;
 
 function preload()
 {
-	bgm = loadSound("https://frank8248.github.io/p5jsTutorial/p5jsTutorial4.2-master/sounds/bensound-creativeminds.mp3");
+	bgm = loadSound("https://frank8248.github.io/p5jstutorial/p5jsTutorial4.2-master/sounds/bensound-creativeminds.mp3");
 
 	// load sound file into variable sfx1
-	sfx1 = loadSound("https://frank8248.github.io/p5jsTutorial/p5jsTutorial4.2-master/sounds/CLASH - ROYALE.mp3.mp3");
+	sfx1 = loadSound("https://frank8248.github.io/p5jstutorial/p5jsTutorial4.2-master/sounds/cr.mp3");
 
-	buttonStart = loadImage("https://frank8248.github.io/p5jsTutorial/p5jsTutorial4.2-master/images/button_cr-music.png");
+	buttonStart = loadImage("https://frank8248.github.io/p5jstutorial/p5jsTutorial4.2-master/images/button_cr-music.png");
 
 }
 

@@ -4,7 +4,7 @@ var bgm;
 function preload()
 {
 	// load sound file into variable bgm
-	bgm = loadSound("https://bleungwpg.github.io/p5jsTutorial4.1/sounds/bensound-creativeminds.mp3");
+	bgm = loadSound("https://frank8248.github.io/p5jstutorial/p5jsTutorial4.1-master/sounds/Game%20of%20Thrones%20-%20Truth%20-%20Ramin%20Djawadi%20(Season%207%20Soundtrack)official.mp3");
 
 }
 

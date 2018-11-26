@@ -10,15 +10,19 @@ var alpha1;
 var widthOfCard;
 var heightOfCard;
 
-var testquestion
-var testquestion1
+var testquestion;
+var testquestion1;
+var que2;
+var ans2; 
+
 
 function preload()
 {
 	testquestion = loadimage('https://frank8248.github.io/p5jstutorial/p5jstutorial/p5jsMatchingGameEngine-master/testquestion1.png')
-	
 	testquestion1 = loadimage ('https://frank8248.github.io/p5jstutorial/p5jstutorial/p5jsMatchingGameEngine-master/testquestion.png')
 
+	que2 = loadimage ('https://frank8248.github.io/p5jstutorial/p5jstutorial/p5jsMatchingGameEngine-master/2question2.png')
+	ans2 = loadimage ('https://frank8248.github.io/p5jstutorial/p5jstutorial/p5jsMatchingGameEngine-master/2question1.png')
 }
 
 function matchGameSetupTables()

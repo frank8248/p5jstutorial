@@ -10,6 +10,17 @@ var alpha1;
 var widthOfCard;
 var heightOfCard;
 
+var testquestion
+var testquestion1
+
+function preload()
+{
+	testquestion = loadimage('https://frank8248.github.io/p5jstutorial/p5jstutorial/p5jsMatchingGameEngine-master/testquestion1.png')
+	
+	testquestion1 = loadimage ('https://frank8248.github.io/p5jstutorial/p5jstutorial/p5jsMatchingGameEngine-master/testquestion.png')
+
+}
+
 function matchGameSetupTables()
 {
 	// starting variables you should not modify
@@ -101,6 +112,8 @@ function matchGameSetupTables()
 	// --------------------------------------
 
 }
+
+
 
 
 function showCards()

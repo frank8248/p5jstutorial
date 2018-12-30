@@ -174,11 +174,7 @@ function showCards()
 			// 2 - card is removed
 
 			// show numbers (this can be removed when product is ready)		
-			fill(50,50,50);
-			textSize(15);
-			strokeWeight(4);
-			text(gridOfPhotosBackEnd[r][c],widthOfCard*2+widthOfCard*2*c,r*heightOfCard*2+heightOfCard*2);
-
+	
 	
 			 
 		}		
